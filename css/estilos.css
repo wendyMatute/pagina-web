@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+	width: 100%;
+	height: 70px;
+	
+}
+.menu{
+	width: 100%;
+	height: 150px;
+	background-color:#E5E8E8;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.telefonia-body{
+	width: 100%;
+	height: 1500px;
+	background-color:#E5E8E8;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.banner{
+	width: 100%;
+	height: 300px;
+	background-color:#EF2E4E;
+}
+.body{
+	width: 100%;
+	height: 800px;
+	background-color:#E5E8E8;
+}
+.footer{
+	width: 100%;
+	height: 300px;
+	background-color: #B2BABB;
+}
+
+/* seccion de categorias o servicios*/
+
+.cate-h2{
+    padding: 18px;
+	text-align:right;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+
+}
+.imagenes{
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 20px;
+
+}
+.imagenes .img{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+.contenido-texto{
+
+}
+.img1{
+	width: 45px;
+	height: 35px
+}
+.img2{
+	width: 35px;
+	height: 35px
+
+}
+
+/* seccion del header*/
+
+.logo-header{
+    display: flex;
+    justify-content: space-evenly; 
+
+}
+.logo{
+	width: 170px;
+	height: 78px
+
+}
+
+/* seccion de del body galeria de imagenes*/
+
+.body-h2{
+	padding: 40px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.flex-container{
+	max-width:960px;
+	width:100%;
+	list-style-type:none;
+	margin:0px auto;
+	padding:0;
+	
+	  /*Flexbox setup*/
+	  display: flex;
+	  flex-flow: row wrap;
+	  justify-content: space-around;
+}
+.item{
+	height:150px;
+	width:200px;
+	line-height:200px;
+	font-size:20px;
+	background-color:#F7F9F9;
+	color:#fff;
+	text-align:center;
+	margin:10px 2px;	
+	border-radius: 10px;
+}
+
+.item-div{
+	width:192px;
+	height: 120px;
+	background-color:#FA8072;"
+}
+
+
+/* seccion del footer */
+
+footer{
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+
+}
+
+.content-foo{
+    text-align: center;
+
+}
+
+.content-foo h4{
+    color: #F7F9F9 ;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-foo p{
+    color: #F7F9F9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+/* galeria de imagenes en seccion teelfonia*/
+.flex-container1{
+	max-width:960px;
+	width:100%;
+	list-style-type:none;
+	margin:0px auto;
+	padding:10;
+
+	
+	  /*Flexbox setup*/
+	  display: flex;
+	  flex-flow: row wrap;
+	  justify-content: space-around;
+}
+.item1{
+	height:250px;
+	width:200px;
+	line-height:200px;
+	font-size:20px;
+	background-color:#F7F9F9;
+	color:#fff;
+	text-align:center;
+	margin:10px 2px;	
+	border-radius: 10px;
+}
